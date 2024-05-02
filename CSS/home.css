@@ -1,0 +1,105 @@
+html {
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    /*width: 50%;
+    background-color: antiquewhite;*/
+    display: flex;
+    justify-content: center;
+}
+.div{
+    width: 50%;
+    height: auto;
+    background-color: antiquewhite;
+}
+
+.home {
+    padding: 5px 2px;
+    height: 50px;
+    display: inline-block;
+    width:100%;
+    background-color: rgb(47, 48, 48);
+}
+
+.home a {
+    margin: 5px 10px;
+    color: rgb(234, 233, 242);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.home input[type='text'] {
+    margin: 2px 175px;
+    border-radius: 5px;
+}
+
+.home button {
+    border: none;
+    background-color: rgb(47, 48, 48);
+    color: rgb(234, 233, 242);
+    font-weight: bolder;
+}
+.above{
+    margin-top: 5px;
+    display: flex;
+    border: 1px solid black;
+}
+.below{
+    margin-top: 5px;
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.above .product{
+    border: 1px solid black;
+    margin:45px;
+    text-align: center;
+}
+.below .product{
+    border: 1px solid black;
+    width:160px;
+    margin:17px 110px ;
+    text-align: center;
+}
+.link {
+    text-decoration: none;
+    display: block;
+    background-color: rgb(47, 48, 48);
+    color: rgb(234, 233, 242);
+    height: 50px;
+    text-align: center;
+}
+.about{
+    border-top: 1px solid blACK;
+    display: flex;
+    
+}
+.about a{
+    
+    padding-left: 15px;
+    width: 90%;
+}
+.about p{
+    height: 25px;
+    padding-right: 15px;
+}
+ .below{
+    
+    display: flex;
+
+}
+.below a{
+   
+    padding-left: 15px;
+    
+}
+.below p{
+    
+    padding-right: 15px;
+}
+.product img{
+    border:1px solid black;
+}

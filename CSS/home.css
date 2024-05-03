@@ -9,8 +9,8 @@ html {
     justify-content: center;
 }
 .div{
-    width: 50%;
-    height: auto;
+    width: 750px;
+    
     background-color: antiquewhite;
 }
 
@@ -54,7 +54,7 @@ html {
 }
 .above .product{
     border: 1px solid black;
-    margin:36px;
+    margin:24px;
     width:200px;
    
     text-align: center;
@@ -63,7 +63,7 @@ html {
     border: 1px solid black;
     width:200px;
     
-    margin:17px 110px ;
+    margin:17px 85px ;
     text-align: center;
 }
 .link {

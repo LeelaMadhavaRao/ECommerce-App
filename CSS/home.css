@@ -3,9 +3,8 @@ html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-body {
-    /*width: 50%;
-    background-color: antiquewhite;*/
+.container{
+    
     display: flex;
     justify-content: center;
 }
@@ -55,12 +54,15 @@ body {
 }
 .above .product{
     border: 1px solid black;
-    margin:45px;
+    margin:36px;
+    width:200px;
+   
     text-align: center;
 }
 .below .product{
     border: 1px solid black;
-    width:160px;
+    width:200px;
+    
     margin:17px 110px ;
     text-align: center;
 }

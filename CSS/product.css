@@ -1,82 +1,79 @@
 html {
     background-color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 50%;
 }
-
-body {
-   
-    
+.Container{
+    display: flex;
+    justify-content: center;
+}
+.Content{
     background-color: antiquewhite;
+    width: 750px;
 }
-
-.home {
-    padding: 5px 2px;
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 50px;
-    display: inline-block;
-    width: 100%;
     background-color: rgb(47, 48, 48);
 }
-
-.home a {
-    margin: 5px 10px;
+.header a{
+    margin-left: 10px;
     color: rgb(234, 233, 242);
     text-decoration: none;
     font-weight: bolder;
 }
-
-.home input[type='text'] {
-    margin: 2px 175px;
+.header input{
     border-radius: 5px;
 }
-
-.home button {
+.header .actions{
+    margin-right: 10px;
+}
+.header .actions button{
+    margin-right: 10px;
     border: none;
     background-color: rgb(47, 48, 48);
     color: rgb(234, 233, 242);
     font-weight: bolder;
 }
-
-.buttons button {
-    width: 100px;
-    border-radius: 5px;
-    font-weight: 500;
-}
-
-.buttons {
-    text-align: center;
-}
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-.link {
-    text-decoration: none;
-    display: block;
-    background-color: rgb(47, 48, 48);
-    color: rgb(234, 233, 242);
-    height: 50px;
-    text-align: center;
-}
-
-p, h1, h2 {
+.Content h1,h2{
     padding-left: 20px;
 }
-
+.Content p{
+    font-size: xx-large;
+    padding-left: 20px;
+}
+.img-cont{
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.buttons button{
+    margin-right: 20px;
+    width: 150px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: large;
+}
 .buttons button:hover {
     background-color: rgb(153, 204, 236);
     color: rgb(47, 48, 48);
 }
-
-h2 {
+.Content h2 {
     border-top: 1px solid black;
     padding-top: 10px;
+    margin-top: 100px;
 }
-
-p {
-    font-size: xx-large;
+.link{
+    text-decoration: none;
+    display: block;
+    background-color: rgb(47, 48, 48);
+    color: rgb(234, 233, 242);
+    height: 30px;
+    padding-top: 13px;
+    text-align: center;
 }

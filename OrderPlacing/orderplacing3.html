@@ -9,72 +9,77 @@
 </head>
 
 <body>
-    <div class="home">
-        <a href="./../home.html">Buynow.in</a>
-        <input type="text" placeholder="Search">
-        <button>login</button>
-        <button>signup</button>
-    </div>
-    <h1>Place Your Order</h1>
-    <div class="imgg">
+    <div class="Container">
+        <div class="Content">
+            <div class="home">
+                <a href="./../home.html">Buynow.in</a>
+                <input type="text" placeholder="Search">
+                <button>login</button>
+                <button>signup</button>
+            </div>
+            <h1>Place Your Order</h1>
+            <div class="imgg">
+                
+                <img src="https://m.media-amazon.com/images/I/614GA7ARZxL.SL1500.jpg" height="100">
+                <p><b>Park Avenue Men Voyage Amazon Woods Liquid Perfume, 120Ml</b></p>
         
-        <img src="https://m.media-amazon.com/images/I/614GA7ARZxL.SL1500.jpg" height="100">
-        <p><b>Park Avenue Men Voyage Amazon Woods Liquid Perfume, 120Ml</b></p>
-
+            </div>
+            <p><b>Price:</b> 14,995/-</p>
+            <form action="./../OrderConfirm/orderconfirm3.html">
+                <label for="FIRSTNAME">NAME:</label><br>
+                <input type="text" id="FIRSTNAME" FIRSTNAME=FIRSTNAME><br><br>
+        
+                <label for="NUMBER">MOBILE NUMBER:</label><br>
+                <input type="number" id="NUMBER" NUMBER=NUMBER><br><br>
+        
+                <label for="add">Flat,House no,Building:</label><br>
+                <input type="text" id="add" add=add><br><br>
+        
+                <label for="add1">Area,Street,Village:</label><br>
+                <input type="text" id="add1" add1=add1><br><br>
+        
+                <label for="add2">Landmark:</label><br>
+                <input type="text" id="add2" add2=add2><br><br>
+        
+                <label for="add3">Pincode:</label><br>
+                <input type="number" id="add" add=add placeholder="6 digit number"><br><br>
+                <label for="add4">Town:</label><br>
+                <input type="text" id="add4" add4=add4><br><br>
+        
+                <label for="state">STATE:</label>
+                <select id="state" name="state">
+                    <option value="ANDHRA PRADESH">ANDHRA PRADESH</option>
+                    <option value="TELANGANA">TELANGANA</option>
+                    <option value="KERALA">KERALA</option>
+                    <option value="MADHYA PRADESH">MADHYA PRADESH</option>
+                    <option value="TAMIL NADU">TAMIL NADU</option>
+                    <option value="HIMACHAL PRADESH">HIMACHAL PRADESH</option>
+                    <option value="ASSAM">ASSAM</option>
+                </select>
+                <label for="COUNTRY">COUNTRY:</label>
+                <select id="COUNTRY" name="COUNTRY">
+                    <option value="INDIA">INDIA</option>
+                    <option value="SRI LANKA">SRILANKA</option>
+                    <option value="ENGLAND">ENGLAND</option>
+                    <option value="FRANCE">FRANCE</option>
+                    <option value="SPAIN"> SPAIN</option>
+                    <option value="GERMANY"> GERMANY</option>
+                    <option value="ITALY">ITALY </option>
+                    <option value="US">US</option>
+                </select><BR><BR>
+                <label for="PAY">SELECT A PAYMENT METHOD:</label>
+                <select id="PAY" name="PAY">
+                    <option value="">Credit/dedit card</option>
+                    <option value="">other UPL Apps(google pay,phonepe,paytmetc)</option>
+                    <option value="">EMI</option>
+                    <option value="">Net Banking</option>
+                    <option value="">Cash on Delivery</option>
+                </select><br><br>
+                <input type="submit" value="Place your order" >
+            </form>
+            <a class="link" href="./orderplacing3.html">Back to top</a>
+        </div>
     </div>
-    <p><b>Price:</b> 14,995/-</p>
-    <form action="./../OrderConfirm/orderconfirm3.html">
-        <label for="FIRSTNAME">NAME:</label><br>
-        <input type="text" id="FIRSTNAME" FIRSTNAME=FIRSTNAME><br><br>
-
-        <label for="NUMBER">MOBILE NUMBER:</label><br>
-        <input type="number" id="NUMBER" NUMBER=NUMBER><br><br>
-
-        <label for="add">Flat,House no,Building:</label><br>
-        <input type="text" id="add" add=add><br><br>
-
-        <label for="add1">Area,Street,Village:</label><br>
-        <input type="text" id="add1" add1=add1><br><br>
-
-        <label for="add2">Landmark:</label><br>
-        <input type="text" id="add2" add2=add2><br><br>
-
-        <label for="add3">Pincode:</label><br>
-        <input type="number" id="add" add=add placeholder="6 digit number"><br><br>
-        <label for="add4">Town:</label><br>
-        <input type="text" id="add4" add4=add4><br><br>
-
-        <label for="state">STATE:</label>
-        <select id="state" name="state">
-            <option value="ANDHRA PRADESH">ANDHRA PRADESH</option>
-            <option value="TELANGANA">TELANGANA</option>
-            <option value="KERALA">KERALA</option>
-            <option value="MADHYA PRADESH">MADHYA PRADESH</option>
-            <option value="TAMIL NADU">TAMIL NADU</option>
-            <option value="HIMACHAL PRADESH">HIMACHAL PRADESH</option>
-            <option value="ASSAM">ASSAM</option>
-        </select>
-        <label for="COUNTRY">COUNTRY:</label>
-        <select id="COUNTRY" name="COUNTRY">
-            <option value="INDIA">INDIA</option>
-            <option value="SRI LANKA">SRILANKA</option>
-            <option value="ENGLAND">ENGLAND</option>
-            <option value="FRANCE">FRANCE</option>
-            <option value="SPAIN"> SPAIN</option>
-            <option value="GERMANY"> GERMANY</option>
-            <option value="ITALY">ITALY </option>
-            <option value="US">US</option>
-        </select><BR><BR>
-        <label for="PAY">SELECT A PAYMENT METHOD:</label>
-        <select id="PAY" name="PAY">
-            <option value="">Credit/dedit card</option>
-            <option value="">other UPL Apps(google pay,phonepe,paytmetc)</option>
-            <option value="">EMI</option>
-            <option value="">Net Banking</option>
-            <option value="">Cash on Delivery</option>
-        </select><br><br>
-        <input type="submit" value="Place your order" >
-    </form>
-    <a class="link" href="./orderplacing3.html">Back to top</a>
+    
 </body>
 </html>

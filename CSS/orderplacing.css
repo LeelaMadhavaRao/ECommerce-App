@@ -1,20 +1,26 @@
 html {
     background-color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   margin-left: 20%;
+  
+    
+}
+.Container{
+    display: flex;
+    justify-content: center;
+}
+.Content{
+    width: 750px;
+    background-color: antiquewhite;
+   
     
 }
 
-body {
-    width: 65%;
-    background-color: antiquewhite;
-   padding: 10px;
+form{
+    padding-left: 10px;
 }
 
-
-
 .home {
-    padding: 5px 2px;
+    margin-left: 0px;
     height: 50px;
     display: inline-block;
     width: 100%;
@@ -43,8 +49,9 @@ input
 {
 border-radius: 4px;
 }
-.imgg
+.imgg,h1
 {
+    padding-left: 10px;
     display:flex;    
 }
 input[type='submit']:hover {

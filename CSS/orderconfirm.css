@@ -1,82 +1,87 @@
 html {
     background-color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   margin-left: 20%;
-    
 }
 
-body {
-    width: 65%;
+.Container {
+    display: flex;
+    justify-content: center;
+}
+
+.Content {
     background-color: antiquewhite;
-   padding: 10px;
-}
+    width: 750px;
     
-
-
-
-.home {
-    padding: 5px 2px;
-    height: 50px;
-    display: inline-block;
-    width: 100%;
-    background-color: rgb(47, 48, 48);
+    border-radius: 10px;
 }
 
-.home a {
-    margin: 5px 10px;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(47, 48, 48);
+    padding: 0 20px; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+
+.header a {
     color: rgb(234, 233, 242);
     text-decoration: none;
     font-weight: bolder;
 }
 
-.home input[type='text'] {
-    margin: 2px 175px;
+.header input {
     border-radius: 5px;
+    padding: 5px; 
 }
-
-.home button {
+.header .actions button {
     border: none;
     background-color: rgb(47, 48, 48);
     color: rgb(234, 233, 242);
     font-weight: bolder;
+    cursor: pointer; 
 }
-input
-{
-border-radius: 4px;
+
+.imgg,p {
+    padding: 20px; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
 }
-.imgg
-{
-    display:flex;
-    flex-wrap: wrap;  
-     
-}
-a
-{
+
+a {
+    
     text-decoration: none;
     text-align: center;
 }
-.order{
-   padding-left: 40px; 
-   
-}
-.head{
-    padding-left: 150px;}
 
-div  
-{
-    padding-left: 100px;
-    padding-top: 25px;
+.order {
+    padding-left: 40px;
 }
-.link a:hover{
-        border: 1px solid black;
-        background-color: rgb(153, 204, 236);
-        color: rgb(47, 48, 48);
+
+.head {
+    padding-left: 150px;
+}
+
+.link a:hover {
+    border: 1px solid black;
+    background-color: rgb(153, 204, 236);
+    color: rgb(47, 48, 48);
+}
+
+.link a {
     
-}
-.link a{
     color: black;
     border: 1px solid black;
     background-color: whitesmoke;
     padding: 5px;
     border-radius: 5px;
+    text-decoration: none; 
+    
+}
+.link{
+    padding: 20px; 
+    text-align: center;
 }

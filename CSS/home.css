@@ -13,6 +13,9 @@ html {
     
     background-color: antiquewhite;
 }
+.welcome{
+    display: inline-flex;
+}
 
 .home {
     padding: 5px 2px;
@@ -28,9 +31,15 @@ html {
     text-decoration: none;
     font-weight: bolder;
 }
+.home p {
+    margin: 5px 10px;
+    color: rgb(234, 233, 242);
+    text-decoration: none;
+    font-weight: bolder;
+}
 
 .home input[type='text'] {
-    margin: 2px 175px;
+    margin: 2px 100px;
     border-radius: 5px;
 }
 
@@ -38,6 +47,9 @@ html {
     border: none;
     background-color: rgb(47, 48, 48);
     color: rgb(234, 233, 242);
+    font-weight: bolder;
+}
+main{
     font-weight: bolder;
 }
 .above{
